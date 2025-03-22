@@ -1,21 +1,21 @@
-// fetch("https://jsonplaceholder.typicode.com/todos")
-//     .then((promise)=>{
-//         return promise.json();
-//     })
-//     .then((data)=>{
-//         console.log(data);
-//     //    for(let i of data){
-//     //     console.log(i.id);
-//     //    }
-//     }
-//     )
-//     .catch(()=>{
-//         console.log("Something went wrong !!!");
-//     })
+fetch("https://jsonplaceholder.typicode.com/todos")
+    .then((promise)=>{
+        return promise.json();
+    })
+    .then((data)=>{
+        console.log(data);
+    //    for(let i of data){
+    //     console.log(i.id);
+    //    }
+    }
+    )
+    .catch(()=>{
+        console.log("Something went wrong !!!");
+    })
 
-// fetch("https://jsonplaceholder.typicode.com/todos")
-//     .then((res)=> res.json())
-//     .then((data)=>console.log(data))
+fetch("https://jsonplaceholder.typicode.com/todos")
+    .then((res)=> res.json())
+    .then((data)=>console.log(data))
 
 const button=document.querySelector("button");
 const ul=document.querySelector("ul");
